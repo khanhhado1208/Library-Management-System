@@ -149,11 +149,17 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="REMOVE STAFF"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="b6ActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="b7">
       <Properties>
         <Property name="text" type="java.lang.String" value="EDIT ADMIN"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="b7ActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="copyright">
       <Properties>

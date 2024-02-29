@@ -78,8 +78,18 @@ public class Dashboard extends javax.swing.JFrame {
         });
 
         b6.setText("REMOVE STAFF");
+        b6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                b6ActionPerformed(evt);
+            }
+        });
 
         b7.setText("EDIT ADMIN");
+        b7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                b7ActionPerformed(evt);
+            }
+        });
 
         copyright.setBackground(new java.awt.Color(255, 0, 102));
         copyright.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -173,6 +183,18 @@ public class Dashboard extends javax.swing.JFrame {
     Remove_Books removeBooks = new Remove_Books(this, true);
     removeBooks.setVisible(true); 
     }//GEN-LAST:event_b3ActionPerformed
+
+    private void b6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b6ActionPerformed
+        // TODO add your handling code here:
+    Remove_Staffs removeStaffs = new Remove_Staffs();
+    removeStaffs.setVisible(true); 
+    }//GEN-LAST:event_b6ActionPerformed
+
+    private void b7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b7ActionPerformed
+        // TODO add your handling code here:
+    Edit_Admin editAdmin = new Edit_Admin();
+    editAdmin.setVisible(true); 
+    }//GEN-LAST:event_b7ActionPerformed
 
     /**
      * @param args the command line arguments
